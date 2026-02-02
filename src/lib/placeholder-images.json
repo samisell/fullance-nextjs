@@ -1,0 +1,358 @@
+{
+  "images": [
+    {
+      "id": "about-person-holding-sign",
+      "url": "https://picsum.photos/seed/aboutPerson/400/300",
+      "alt": "Person holding a Bukyia sign",
+      "hint": "person sign"
+    },
+    {
+      "id": "service-house-plans",
+      "url": "https://picsum.photos/seed/housePlans/600/400",
+      "alt": "Architectural plans for a house",
+      "hint": "architectural plans"
+    },
+    {
+      "id": "service-happy-man",
+      "url": "https://picsum.photos/seed/happyMan/600/400",
+      "alt": "Happy man holding keys to a new house",
+      "hint": "man holding keys"
+    },
+    {
+      "id": "leader-with-money",
+      "url": "https://picsum.photos/seed/leaderMoney/600/400",
+      "alt": "A person holding a fan of cash with house drawings in background",
+      "hint": "investment money"
+    },
+    {
+      "id": "leader-with-keys",
+      "url": "https://picsum.photos/seed/leaderKeys/600/400",
+      "alt": "A person holding out a set of keys with house drawings in background",
+      "hint": "house keys"
+    },
+    {
+      "id": "author-avatar-1",
+      "url": "https://picsum.photos/seed/author1/40/40",
+      "alt": "Avatar of Samuel Jackson",
+      "hint": "man avatar"
+    },
+    {
+      "id": "author-avatar-2",
+      "url": "https://picsum.photos/seed/author2/40/40",
+      "alt": "Avatar of Ronke Lawal",
+      "hint": "woman avatar"
+    },
+    {
+      "id": "partner-logo-1",
+      "url": "https://picsum.photos/seed/logo1/150/40",
+      "alt": "Company logo 1",
+      "hint": "company logo"
+    },
+    {
+      "id": "partner-logo-2",
+      "url": "https://picsum.photos/seed/logo2/150/40",
+      "alt": "Company logo 2",
+      "hint": "tech logo"
+    },
+    {
+      "id": "partner-logo-3",
+      "url": "https://picsum.photos/seed/logo3/150/40",
+      "alt": "Company logo 3",
+      "hint": "finance logo"
+    },
+    {
+      "id": "partner-logo-4",
+      "url": "https://picsum.photos/seed/logo4/150/40",
+      "alt": "Company logo 4",
+      "hint": "estate logo"
+    },
+    {
+      "id": "partner-logo-5",
+      "url": "https://picsum.photos/seed/logo5/150/40",
+      "alt": "Company logo 5",
+      "hint": "venture logo"
+    },
+    {
+      "id": "testimonial-avatar-1",
+      "url": "https://picsum.photos/seed/testimonial1/40/40",
+      "alt": "Avatar of Mubaraq",
+      "hint": "profile picture"
+    },
+    {
+      "id": "testimonial-avatar-2",
+      "url": "https://picsum.photos/seed/testimonial2/40/40",
+      "alt": "Avatar of David",
+      "hint": "man smiling"
+    },
+    {
+      "id": "testimonial-avatar-3",
+      "url": "https://picsum.photos/seed/testimonial3/40/40",
+      "alt": "Avatar of Esther",
+      "hint": "woman smiling"
+    },
+    {
+      "id": "testimonial-avatar-4",
+      "url": "https://picsum.photos/seed/testimonial4/40/40",
+      "alt": "Avatar of Sarah",
+      "hint": "woman profile"
+    },
+    {
+      "id": "map-placeholder",
+      "url": "https://picsum.photos/seed/map/1200/500",
+      "alt": "Map showing office location",
+      "hint": "city map"
+    },
+    {
+      "id": "explore-land",
+      "url": "https://picsum.photos/seed/exploreLand/600/400",
+      "alt": "A plot of land",
+      "hint": "green field"
+    },
+    {
+      "id": "explore-buy-house",
+      "url": "https://picsum.photos/seed/exploreBuy/600/400",
+      "alt": "A modern house",
+      "hint": "modern house"
+    },
+    {
+      "id": "explore-build-house",
+      "url": "https://picsum.photos/seed/exploreBuild/600/400",
+      "alt": "Man holding keys to a new house",
+      "hint": "man holding keys"
+    },
+    {
+      "id": "why-us-money",
+      "url": "https://picsum.photos/seed/whyUsMoney/400/200",
+      "alt": "Stack of money representing budget-friendliness",
+      "hint": "money stack"
+    },
+    {
+      "id": "build-hero-bg",
+      "url": "https://picsum.photos/seed/buildHero/1200/800",
+      "alt": "Modern apartment building with balconies",
+      "hint": "modern apartment building"
+    },
+    {
+      "id": "medal-best-quality",
+      "url": "https://picsum.photos/seed/medal/400/400",
+      "alt": "Silver medal for best quality",
+      "hint": "silver medal"
+    },
+    {
+      "id": "contact-image",
+      "url": "https://picsum.photos/seed/contactBuilding/600/800",
+      "alt": "Modern office building",
+      "hint": "office building"
+    },
+    {
+      "id": "inspection-bus",
+      "url": "https://picsum.photos/seed/inspectionBus/600/400",
+      "alt": "White bus for property inspection tours",
+      "hint": "white bus"
+    },
+    {
+      "id": "prop-1-thumb",
+      "url": "https://picsum.photos/seed/prop1thumb/600/400",
+      "alt": "Luxury high-rise apartment building at dusk",
+      "hint": "luxury apartment"
+    },
+    {
+      "id": "prop-2-thumb",
+      "url": "https://picsum.photos/seed/prop2thumb/600/400",
+      "alt": "Lush green land with plots marked out",
+      "hint": "land plot"
+    },
+    {
+      "id": "prop-3-thumb",
+      "url": "https://picsum.photos/seed/prop3thumb/600/400",
+      "alt": "Modern commercial building with glass facade",
+      "hint": "commercial building"
+    },
+    {
+      "id": "prop-4-thumb",
+      "url": "https://picsum.photos/seed/prop4thumb/600/400",
+      "alt": "Waterfront villa with a private jetty",
+      "hint": "waterfront villa"
+    },
+    {
+      "id": "prop-5-thumb",
+      "url": "https://picsum.photos/seed/prop5thumb/600/400",
+      "alt": "Grand mansion with a large garden",
+      "hint": "luxury mansion"
+    },
+    {
+      "id": "prop-6-thumb",
+      "url": "https://picsum.photos/seed/prop6thumb/600/400",
+      "alt": "Busy commercial hub with several shops",
+      "hint": "business district"
+    },
+    {
+      "id": "prop-7-thumb",
+      "url": "https://picsum.photos/seed/prop7thumb/600/400",
+      "alt": "Serene landscape with plots of land for sale",
+      "hint": "land sale"
+    },
+    {
+      "id": "prop-8-thumb",
+      "url": "https://picsum.photos/seed/prop8thumb/600/400",
+      "alt": "Modern residence near a lake",
+      "hint": "lakeside house"
+    },
+    {
+      "id": "gallery-1-1",
+      "url": "https://picsum.photos/seed/gallery1_1/800/600",
+      "alt": "Spacious living room with modern furniture",
+      "hint": "modern living room"
+    },
+    {
+      "id": "gallery-1-2",
+      "url": "https://picsum.photos/seed/gallery1_2/800/600",
+      "alt": "Sleek kitchen with stainless steel appliances",
+      "hint": "modern kitchen"
+    },
+    {
+      "id": "gallery-1-3",
+      "url": "https://picsum.photos/seed/gallery1_3/800/600",
+      "alt": "Bedroom with a view of the city skyline",
+      "hint": "bedroom city view"
+    },
+    {
+      "id": "gallery-1-4",
+      "url": "https://picsum.photos/seed/gallery1_4/800/600",
+      "alt": "Rooftop infinity pool overlooking the city",
+      "hint": "rooftop pool"
+    },
+    {
+      "id": "gallery-2-1",
+      "url": "https://picsum.photos/seed/gallery2_1/800/600",
+      "alt": "Well-laid out estate with roads and infrastructure",
+      "hint": "real estate layout"
+    },
+    {
+      "id": "gallery-2-2",
+      "url": "https://picsum.photos/seed/gallery2_2/800/600",
+      "alt": "A signpost for a new estate",
+      "hint": "estate sign"
+    },
+    {
+      "id": "partner-hero-1",
+      "url": "https://picsum.photos/seed/partner1/600/400",
+      "alt": "Group of young people celebrating outdoors",
+      "hint": "people cheering"
+    },
+    {
+      "id": "partner-hero-2",
+      "url": "https://picsum.photos/seed/partner2/600/400",
+      "alt": "People in a team meeting",
+      "hint": "team discussion"
+    },
+    {
+      "id": "partner-hero-3",
+      "url": "https://picsum.photos/seed/partner3/600/400",
+      "alt": "Man presenting to a group",
+      "hint": "man presenting"
+    },
+    {
+      "id": "dukiya-army-team",
+      "url": "https://picsum.photos/seed/dukiyaArmy/600/400",
+      "alt": "The Dukiya Army team posing for a photo",
+      "hint": "team photo"
+    },
+    {
+      "id": "partnership-hero-houses",
+      "url": "https://picsum.photos/seed/partnershipHero/1200/600",
+      "alt": "Aerial view of a residential estate",
+      "hint": "residential estate aerial"
+    },
+    {
+      "id": "partnership-cta-people",
+      "url": "https://picsum.photos/seed/partnershipCTA/600/400",
+      "alt": "Two people looking over a plot of land",
+      "hint": "people land"
+    },
+    {
+      "id": "about-hero-team-1",
+      "url": "https://picsum.photos/seed/aboutTeam1/600/400",
+      "alt": "Team photo, group of people in corporate attire",
+      "hint": "corporate team photo"
+    },
+    {
+      "id": "about-hero-team-2",
+      "url": "https://picsum.photos/seed/aboutTeam2/300/400",
+      "alt": "Close up of a smiling woman from the team",
+      "hint": "professional woman"
+    },
+    {
+      "id": "about-gallery-1",
+      "url": "https://picsum.photos/seed/aboutGallery1/600/400",
+      "alt": "Women from the team holding Dukiya branded boxes",
+      "hint": "team members smiling"
+    },
+    {
+      "id": "about-gallery-2",
+      "url": "https://picsum.photos/seed/aboutGallery2/600/400",
+      "alt": "Two men from the team on a plot of land",
+      "hint": "men on site"
+    },
+    {
+      "id": "team-member-1",
+      "url": "https://picsum.photos/seed/team1/400/400",
+      "alt": "Bayo Imanol",
+      "hint": "man portrait"
+    },
+    {
+      "id": "team-member-2",
+      "url": "https://picsum.photos/seed/team2/400/400",
+      "alt": "Laolu Abioye",
+      "hint": "man red blazer"
+    },
+    {
+      "id": "team-member-3",
+      "url": "https://picsum.photos/seed/team3/400/400",
+      "alt": "Temitope A.",
+      "hint": "man blue suit"
+    },
+    {
+      "id": "team-member-4",
+      "url": "https://picsum.photos/seed/team4/400/400",
+      "alt": "Olabisi D.",
+      "hint": "woman corporate"
+    },
+    {
+      "id": "team-member-5",
+      "url": "https://picsum.photos/seed/team5/400/400",
+      "alt": "Joshua Edem",
+      "hint": "man in suit"
+    },
+    {
+      "id": "about-cta-team",
+      "url": "https://picsum.photos/seed/aboutCTA/600/400",
+      "alt": "Team photo for the 'Join Dukiya' section",
+      "hint": "happy team"
+    },
+    {
+      "id": "csr-hero-1",
+      "url": "https://picsum.photos/seed/csrHero1/400/500",
+      "alt": "Volunteers celebrating",
+      "hint": "volunteers cheering"
+    },
+    {
+      "id": "csr-hero-2",
+      "url": "https://picsum.photos/seed/csrHero2/400/500",
+      "alt": "People receiving aid packages",
+      "hint": "community aid"
+    },
+    {
+      "id": "csr-hero-3",
+      "url": "https://picsum.photos/seed/csrHero3/400/500",
+      "alt": "Man speaking at a community event",
+      "hint": "community speaker"
+    },
+    {
+      "id": "csr-project-1",
+      "url": "https://picsum.photos/seed/csrProject1/600/400",
+      "alt": "Dukiya giving to Nigerian flood victims",
+      "hint": "flood relief"
+    }
+  ]
+}
