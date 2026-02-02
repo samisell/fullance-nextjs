@@ -20,5 +20,11 @@ export default function PropertyDetailPage({ params }: Props) {
     notFound();
   }
 
-  return <PropertyDetailClientPage property={property} />;
+  const { amenities, ...rest } = property;
+  const clientProperty = {
+    ...rest,
+    amenities: amenities.map(({ name }) => ({ name })),
+  };
+
+  return <PropertyDetailClientPage property={clientProperty} />;
 }

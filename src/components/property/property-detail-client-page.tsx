@@ -7,11 +7,11 @@ import PropertyRecommendations from '@/components/property/property-recommendati
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { MapPin, Tag, Landmark, Ruler } from 'lucide-react';
+import { MapPin, Tag, Landmark, Ruler, ShieldCheck, Building2, Home, Waves, DollarSign, Car, Droplets, Zap, Sprout, Key } from 'lucide-react';
 import { motion } from "framer-motion";
 
 type Props = {
-  property: Property;
+  property: Omit<Property, 'amenities'> & { amenities: { name: string }[] };
 };
 
 const animation = {
@@ -21,6 +21,21 @@ const animation = {
   transition: { duration: 0.5 }
 };
 
+const iconMap: { [key: string]: React.ElementType } = {
+  'Perimeter Fencing': Landmark,
+  'Gated Community': Key,
+  'Manned Security': ShieldCheck,
+  'Drainage System': Waves,
+  'Good Road Network': Car,
+  'Secure Title': ShieldCheck,
+  'Semi-finished Units': Home,
+  'CCTV Surveillance': ShieldCheck,
+  '24-hour Solar Lighting': Zap,
+  'Landscaped Areas': Sprout,
+  'Ample Parking': Car,
+  'Fire Suppression System': Building2,
+  'Robust Electrical Systems': Building2,
+};
 
 export default function PropertyDetailClientPage({ property }: Props) {
   const keyDetails = [
@@ -34,38 +49,42 @@ export default function PropertyDetailClientPage({ property }: Props) {
     <div className="bg-white">
       <div className="container max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <motion.div {...animation}>
-            <PropertyDetailsGallery imageIds={property.imageIds} propertyName={property.name} />
+          <PropertyDetailsGallery imageIds={property.imageIds} propertyName={property.name} />
         </motion.div>
 
         <div className="mt-12 grid grid-cols-1 gap-12 lg:grid-cols-3 lg:gap-16">
-          <motion.div className="lg:col-span-2" {...animation} transition={{...animation.transition, delay: 0.2}}>
+          <motion.div className="lg:col-span-2" {...animation} transition={{ ...animation.transition, delay: 0.2 }}>
             <Badge variant="secondary" className="mb-2">{property.type}</Badge>
             <h1 className="text-4xl font-extrabold tracking-tight text-primary sm:text-5xl">{property.name}</h1>
             <p className="mt-6 text-lg text-muted-foreground">{property.description}</p>
-            
+
             {property.amenities.length > 0 && (
               <div className="mt-10">
                 <h2 className="text-2xl font-bold text-primary">Amenities</h2>
                 <div className="mt-4 grid grid-cols-2 gap-4 sm:grid-cols-3">
-                  {property.amenities.map(({ icon: Icon, name }, index) => (
-                    <motion.div 
-                        key={name} 
+                  {property.amenities.map(({ name }, index) => {
+                    const Icon = iconMap[name];
+                    if (!Icon) return null;
+                    return (
+                      <motion.div
+                        key={name}
                         className="flex items-center"
                         initial={{ opacity: 0, x: -20 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.3, delay: index * 0.1 }}
-                    >
-                      <Icon className="h-5 w-5 text-accent mr-3" />
-                      <span className="text-sm font-medium text-foreground">{name}</span>
-                    </motion.div>
-                  ))}
+                      >
+                        <Icon className="h-5 w-5 text-accent mr-3" />
+                        <span className="text-sm font-medium text-foreground">{name}</span>
+                      </motion.div>
+                    );
+                  })}
                 </div>
               </div>
             )}
           </motion.div>
 
-          <motion.div className="lg:col-span-1 space-y-6" {...animation} transition={{...animation.transition, delay: 0.4}}>
+          <motion.div className="lg:col-span-1 space-y-6" {...animation} transition={{ ...animation.transition, delay: 0.4 }}>
             <Card className="shadow-xl">
               <CardHeader>
                 <CardTitle className="text-primary">Key Details</CardTitle>
@@ -87,20 +106,20 @@ export default function PropertyDetailClientPage({ property }: Props) {
 
             <Card className="bg-secondary/70 shadow-xl">
               <CardContent className="p-6 text-center">
-                 <h3 className="text-lg font-semibold text-primary">Interested in this property?</h3>
-                 <div className="mt-4 flex flex-col gap-3">
-                    <Button asChild size="lg">
-                      <Link href="/book-inspection">Book Inspection</Link>
-                    </Button>
-                    <Button asChild size="lg" variant="outline">
-                      <Link href="/subscribe">Subscribe / Enquire</Link>
-                    </Button>
-                 </div>
+                <h3 className="text-lg font-semibold text-primary">Interested in this property?</h3>
+                <div className="mt-4 flex flex-col gap-3">
+                  <Button asChild size="lg">
+                    <Link href="/book-inspection">Book Inspection</Link>
+                  </Button>
+                  <Button asChild size="lg" variant="outline">
+                    <Link href="/subscribe">Subscribe / Enquire</Link>
+                  </Button>
+                </div>
               </CardContent>
             </Card>
           </motion.div>
         </div>
-        
+
         <PropertyRecommendations currentProperty={property} />
 
       </div>
